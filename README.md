@@ -2,14 +2,7 @@
 
 ### app installation:
 
-`cd .local/share/tutor/env/build/openedx/requirements   `
-
-`git clone https://github.com/Hoasker/custom-form-field.git `
-
-`echo "-e ./custom-form-field" >>  private.txt `
-
-`pip3 install -e custom-form-field `
-
+`nano .local/share/tutor/env/build/openedx/requirements/private.txt git+https://github.com/Hoasker/custom-form-field.git`
 
 ### plugin activation:
 
