@@ -4,7 +4,7 @@
 
 `cd .local/share/tutor/env/build/openedx/requirements   `
 
-`git clone -b solo https://github.com/Hoasker/custom-form-field.git `
+`git clone https://github.com/Hoasker/custom-form-field.git `
 
 `echo "-e ./custom-form-field" >>  private.txt `
 

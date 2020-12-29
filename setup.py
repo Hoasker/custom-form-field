@@ -30,7 +30,7 @@ setup(
     name='custom-form-app',
     version='1.0',
     description='Custom field student group',
-    packages=['custom-form-field'],
+    packages=['custom_form_field'],
     install_requires=[
         'Django',
     ],
