@@ -12,7 +12,7 @@ class ExtraInfo(models.Model):
     """
     user = models.OneToOneField(USER_MODEL, null=True,  related_name='user+', on_delete=models.CASCADE)
     
-    phone_number = models.CharField(
+    student_group = models.CharField(
         verbose_name="Student Group",
         max_length=100,
     )
