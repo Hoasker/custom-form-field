@@ -1,0 +1,11 @@
+---
+name: custom_form_plugin
+version: 0.1.0
+patches:
+    lms-env: |
+      "ADDL_INSTALLED_APPS": ["custom_form_field"],
+      "ENABLE_COMBINED_LOGIN_REGISTRATION": true,
+      "REGISTRATION_EXTENSION_FORM": "custom_form_field.forms.ExtraInfoForm"
+
+    cms-env: |
+      "ENABLE_COMBINED_LOGIN_REGISTRATION": true
