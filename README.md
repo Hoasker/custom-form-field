@@ -2,7 +2,9 @@
 
 ### app installation:
 
-`nano .local/share/tutor/env/build/openedx/requirements/private.txt git+https://github.com/Hoasker/custom-form-field.git`
+`nano .local/share/tutor/env/build/openedx/requirements/private.txt` 
+### add this line
+`git+https://github.com/Hoasker/custom-form-field.git`
 
 ### plugin activation:
 
